@@ -6,7 +6,7 @@ import seat from "../Assests/Group 1943.png";
 
 function Categoriy() {
   return (
-    <div className="w-screen h-full">
+    <div id="idcategory" className="w-screen h-full">
      
       <h1 className="text-center font-extrabold text-6xl mt-14">Categories</h1>
       <div className="w-full flex gap-2 mt-10 p-9 ">

@@ -60,8 +60,8 @@ function ShowBrands() {
 
 export default ShowBrands;
 
-// <div className="w-screen">
-{
+//  <div className="w-screen">
+// {
   /* <img
 src={Gradient}
 alt=""
@@ -103,4 +103,4 @@ className="absolute object-cover opacity-25"
 </div>
 </div>
 </div> */
-}
+// }

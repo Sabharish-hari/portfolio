@@ -14,12 +14,12 @@ return(
                  finishing in the field</p>
                  </div>
         </div>
-        <div className="flex flex-col mt-5">
-            <h1 className="text-[#FFA52F] font-bold text-start text-[36px] ">Categories</h1>
+        <div  className="flex flex-col mt-5">
+            <h1 className="text-[#FFA52F] font-bold text-start text-[36px] "><a href="#idcategory">Categories</a></h1>
             <div className="mt-5">
-            <p className="text-[20px] font-semibold text-start">Infotainment system</p>
-            <p className="text-[20px] font-semibold text-start">Car modification</p>
-            <p className="text-[20px] font-semibold text-start">Alloy wheels</p>
+            <p className="text-[20px] font-semibold text-start"><a href="#idcategory">Infotainment system</a></p>
+            <p className="text-[20px] font-semibold text-start"><a href="#idcategory">Car modification</a></p>
+            <p className="text-[20px] font-semibold text-start"><a href="#idcategory">Alloy wheels</a></p>
             </div>
         </div>
         <div className="flex flex-col mt-5">
@@ -33,9 +33,9 @@ return(
         <div className="flex flex-col mt-5">
             <h1 className="text-[#FFA52F] font-bold text-start text-[36px] ">Follow Us</h1>
             <div className="flex gap-6 mt-5">
-                <BsFacebook className="text-[24px]"/>
-                <BsInstagram className="text-[24px]"/>
-                <RiTwitterXFill className="text-[24px]"/>
+                <a href="https://www.facebook.com" target="_blank" rel="noopener noreferrer"><BsFacebook className="text-[24px]"/></a>
+                <a href="https://www.instagram.com/" target="_blank" rel="noopener noreferrer"><BsInstagram className="text-[24px]"/></a>
+                <a href="https://twitter.com/" target="_blank" rel="noopener noreferrer"><RiTwitterXFill className="text-[24px]"/></a>
             </div>
         </div>      
       </div>
